@@ -65,7 +65,7 @@ if goal_id == 1:
 
    else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 2:
 
@@ -79,7 +79,7 @@ elif goal_id == 2:
 
    else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 3:
 
@@ -92,7 +92,7 @@ elif goal_id == 3:
        print("Congratulations", name, "you have passed the test")
    else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 
 elif goal_id == 4:
@@ -106,7 +106,7 @@ elif goal_id == 4:
       print("Congratulations", name, "you have passed the test")
    else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
    
 elif goal_id == 5:
    
@@ -119,7 +119,7 @@ elif goal_id == 5:
       print("Congratulations", name, "you have passed the test")
    else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")   
+       print("You entered the wrong answer...", name, ", Better Luck Next Time!")   
 
 elif goal_id == 6:
        
@@ -132,7 +132,7 @@ elif goal_id == 6:
           print("Congratulations", name, "you have passed the test")
        else:
 
-        print("You entered the wrong answer... Better Luck Next Time!")
+        print("You entered the wrong answer...", name, "Better Luck Next Time!")
           
 elif goal_id == 7:
        
@@ -145,7 +145,7 @@ elif goal_id == 7:
          print("Congratulations", name, "you have passed the test")
        else:
 
-        print("You entered the wrong answer... Better Luck Next Time!")
+        print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 8:
 
@@ -158,7 +158,7 @@ elif goal_id == 8:
         print("Congratulations", name, "you have passed the test")
     else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 9:
 
@@ -171,7 +171,7 @@ elif goal_id == 9:
         print("Congratulations", name, "you have passed the test")
     else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 10:
 
@@ -184,7 +184,7 @@ elif goal_id == 10:
         print("Congratulations", name, "you have passed the test")
     else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 11:
 
@@ -197,7 +197,7 @@ elif goal_id == 11:
         print("Congratulations", name, "you have passed the test")
     else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 
 elif goal_id == 12:
@@ -211,7 +211,7 @@ elif goal_id == 12:
         print("Congratulations", name, "you have passed the test")
     else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")  
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")  
 
 elif goal_id == 13:
 
@@ -224,7 +224,7 @@ elif goal_id == 13:
         print("Congratulations", name, "you have passed the test")
     else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 14:
 
@@ -237,7 +237,7 @@ elif goal_id == 14:
         print("Congratulations", name, "you have passed the test")
     else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 15:
 
@@ -250,7 +250,7 @@ elif goal_id == 15:
         print("Congratulations", name, "you have passed the test")
     else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 16:
 
@@ -263,7 +263,7 @@ elif goal_id == 16:
         print("Congratulations", name, "you have passed the test")
     else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 17:
 
@@ -276,4 +276,4 @@ elif goal_id == 17:
         print("Congratulations", name, "you have passed the test")
     else:
 
-       print("You entered the wrong answer... Better Luck Next Time!")             
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")             
