@@ -41,7 +41,7 @@ def spsdGoals(goal_id):
 
    }
 
-   return goal_info.get(goal_id, 'Invalid User ID')
+   return goal_info.get(goal_id, 'Invalid Goal ID')
 
 
 
