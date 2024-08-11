@@ -1,3 +1,4 @@
+name=str(input("enter your name:"))
 def spsdGoals(goal_id):
 
    goal_info = {
