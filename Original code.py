@@ -42,7 +42,7 @@ def spsdGoals(goal_id):
 
    }
 
-   return goal_info.get(goal_id, 'Invalid User ID')
+   return goal_info.get(goal_id, 'Invalid Goal ID')
 
 
 
@@ -61,11 +61,11 @@ if goal_id == 1:
 
    if answer == "2030":
 
-    print("Congratulations", "name", "you have passed the test")
+    print("Congratulations", name, "you have passed the test")
 
    else:
 
-       print("better luck next time")
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 2:
 
@@ -75,11 +75,11 @@ elif goal_id == 2:
 
    if answer == "coronavirus":
 
-       print("Congratulations", "name", "you have passed the test")
+       print("Congratulations", name, "you have passed the test")
 
    else:
 
-       print("better luck next time")
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 3:
 
@@ -89,7 +89,11 @@ elif goal_id == 3:
 
    if answer == "internet":
 
-       print("Congratulations", "name", "you have passed the test")
+       print("Congratulations", name, "you have passed the test")
+   else:
+
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
+
 
 elif goal_id == 4:
 
@@ -99,7 +103,10 @@ elif goal_id == 4:
 
    if answer == "Education":
       
-      print("Congratulations", "name", "you have passed the test")
+      print("Congratulations", name, "you have passed the test")
+   else:
+
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
    
 elif goal_id == 5:
    
@@ -109,7 +116,10 @@ elif goal_id == 5:
 
    if answer == "Gender":
       
-      print("Congratulations", "name", "you have passed the test")
+      print("Congratulations", name, "you have passed the test")
+   else:
+
+       print("You entered the wrong answer...", name, ", Better Luck Next Time!")   
 
 elif goal_id == 6:
        
@@ -119,7 +129,10 @@ elif goal_id == 6:
 
        if answer == "Water":
           
-          print("Congratulations", "name", "you have passed the test")
+          print("Congratulations", name, "you have passed the test")
+       else:
+
+        print("You entered the wrong answer...", name, "Better Luck Next Time!")
           
 elif goal_id == 7:
        
@@ -129,7 +142,10 @@ elif goal_id == 7:
 
        if answer == "Energy":
              
-             print("Congratulations", "name", "you have passed the test")
+         print("Congratulations", name, "you have passed the test")
+       else:
+
+        print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 8:
 
@@ -139,7 +155,10 @@ elif goal_id == 8:
 
     if answer == "Work":
 
-        print("Congratulations", "name", "you have passed the test")
+        print("Congratulations", name, "you have passed the test")
+    else:
+
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 9:
 
@@ -149,7 +168,10 @@ elif goal_id == 9:
 
     if answer == "Industry":
 
-        print("Congratulations", "name", "you have passed the test")
+        print("Congratulations", name, "you have passed the test")
+    else:
+
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 10:
 
@@ -159,7 +181,10 @@ elif goal_id == 10:
 
     if answer == "Inequality":
 
-        print("Congratulations", "name", "you have passed the test")
+        print("Congratulations", name, "you have passed the test")
+    else:
+
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 11:
 
@@ -169,7 +194,10 @@ elif goal_id == 11:
 
     if answer == "Cities":
 
-        print("Congratulations", "name", "you have passed the test")
+        print("Congratulations", name, "you have passed the test")
+    else:
+
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 
 elif goal_id == 12:
@@ -180,7 +208,10 @@ elif goal_id == 12:
 
     if answer == "Consumption":
 
-        print("Congratulations", "name", "you have passed the test")  
+        print("Congratulations", name, "you have passed the test")
+    else:
+
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")  
 
 elif goal_id == 13:
 
@@ -190,7 +221,10 @@ elif goal_id == 13:
 
     if answer == "Climate":
 
-        print("Congratulations", "name", "you have passed the test")
+        print("Congratulations", name, "you have passed the test")
+    else:
+
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 14:
 
@@ -200,7 +234,10 @@ elif goal_id == 14:
 
     if answer == "Oceans":
 
-        print("Congratulations", "name", "you have passed the test")
+        print("Congratulations", name, "you have passed the test")
+    else:
+
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 15:
 
@@ -210,7 +247,10 @@ elif goal_id == 15:
 
     if answer == "Forests":
 
-        print("Congratulations", "name", "you have passed the test")
+        print("Congratulations", name, "you have passed the test")
+    else:
+
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 16:
 
@@ -220,7 +260,10 @@ elif goal_id == 16:
 
     if answer == "Peace":
 
-        print("Congratulations", "name", "you have passed the test")
+        print("Congratulations", name, "you have passed the test")
+    else:
+
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")
 
 elif goal_id == 17:
 
@@ -230,8 +273,7 @@ elif goal_id == 17:
 
     if answer == "Partnerships":
 
-        print("Congratulations", "name", "you have passed the test")
-       
-else:
+        print("Congratulations", name, "you have passed the test")
+    else:
 
-       print("better luck next time")       
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")             
