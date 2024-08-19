@@ -62,6 +62,8 @@ if goal_id == 1:
    if answer == "2030":
 
     print("Congratulations", name, "you have passed the test")
+    
+    
 
    else:
 
@@ -276,4 +278,13 @@ elif goal_id == 17:
         print("Congratulations", name, "you have passed the test")
     else:
 
-       print("You entered the wrong answer...", name, "Better Luck Next Time!")             
+       print("You entered the wrong answer...", name, "Better Luck Next Time!")  
+       
+from tkinter import *
+root=Tk()
+root.title('MYBOXGUI')
+my_label = Label(root, text = 'line1').pack()
+mylabel2 = Label(root, text = "SDG goals are the best").pack()
+root.geometry("800x600")
+root.mainloop()
+                  
