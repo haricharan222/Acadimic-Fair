@@ -1,4 +1,5 @@
 name=str(input("enter your name:"))
+
 from tkinter import *
 root=Tk()
 
@@ -18,6 +19,20 @@ options = [
     'SDG goal 1',
     'SDG goal 2',
     'SDG goal 3',
+    'SDG goal 4',
+    'SDG goal 5',
+    'SDG goal 6',
+    'SDG goal 7',
+    'SDG goal 8',
+    'SDG goal 9',
+    'SDG goal 10',
+    'SDG goal 11',
+    'SDG goal 12',
+    'SDG goal 13',
+    'SDG goal 14',
+    'SDG goal 15',
+    'SDG goal 16',
+    'SDG goal 17',
     
 ]
 
@@ -29,6 +44,8 @@ drop = OptionMenu(root,clicked,*options)
 drop.grid(row=0,column=1,padx=10,pady=10)
 
 root.mainloop()
+
+
 
 def spsdGoals(goal_id):
 
