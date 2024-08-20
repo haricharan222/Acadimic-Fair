@@ -1,4 +1,35 @@
 name=str(input("enter your name:"))
+from tkinter import *
+root=Tk()
+
+
+root.title('OPTION APP')
+root.iconbitmap('C:/Users/har22/.vscode/Google Chat.ico')
+root.geometry("800x600")
+
+
+def open():
+    
+    my_label = Label(root,text =clicked.get())
+    my_label.grid(row=2,column=2,padx=10,pady=10,ipadx=30)
+
+options = [
+    
+    'SDG goal 1',
+    'SDG goal 2',
+    'SDG goal 3',
+    
+]
+
+clicked = StringVar()
+clicked.set(options[0])
+
+
+drop = OptionMenu(root,clicked,*options)
+drop.grid(row=0,column=1,padx=10,pady=10)
+
+root.mainloop()
+
 def spsdGoals(goal_id):
 
    goal_info = {
@@ -280,11 +311,4 @@ elif goal_id == 17:
 
        print("You entered the wrong answer...", name, "Better Luck Next Time!")  
        
-from tkinter import *
-root=Tk()
-root.title('MYBOXGUI')
-my_label = Label(root, text = 'line1').pack()
-mylabel2 = Label(root, text = "SDG goals are the best").pack()
-root.geometry("800x600")
-root.mainloop()
-                  
+                 
